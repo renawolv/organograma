@@ -1,0 +1,27 @@
+.rodape {
+    background-color: #6278F7;
+    width: 100%;
+    background-image: './public/imagens/fundo.png';
+    padding: 32px;
+    text-align: center;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.rodape .item {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 32px;
+    flex-wrap: wrap;
+    color: #fff;
+}
+
+.rodape .media img {
+    height: 35px;
+}
+
+.rodape .logo img {
+    height: 64px;
+}
